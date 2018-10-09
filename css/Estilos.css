@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+*{
+    font-family: Arial;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+/*********Cabecera***************/
+h1, h2{
+    text-align: center;
+}
+header{
+    background-repeat:no-repeat; 
+    background:#286af0;
+    padding:5% 0%;
+    margin-bottom: 0.15em;
+    border-radius: 5px;**/
+}
+/**************Menú*************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/***********Principal**********/
+section#contenedor{
+    border-radius: 5px;
+    background-color: #286af0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    margin-top: 0.2em;
+}
+article#tema{
+    width: 55%;
+    height: 375px;
+    float:left;
+    margin: 1em;
+    overflow-y: scroll;
+}
+aside{
+    width: 50%
+    float:right;
+    margin: 0.5em;
+}
+/*********Pié de página******/
+footer {
+    background: #286af0;
+    text-align: center;
+    padding: 1%;
+    margin-top: 0.5em;
+    border-radius: 5px;
+}
