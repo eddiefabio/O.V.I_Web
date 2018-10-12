@@ -14,6 +14,8 @@ body {
     margin-right: 5%;
     margin-left: 5%;
 }
+
+
 /*********Cabecera***************/
 h1, h2{
     text-align: center;
@@ -26,6 +28,7 @@ header{
     border-radius: 5px;**/
 }
 /**************Menú*************/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -48,6 +51,9 @@ li a {
 }
 
 li a:hover {
+    background-color: #111;
+}
+li a:focus {
     background-color: #111;
 }
 /***********Principal**********/
