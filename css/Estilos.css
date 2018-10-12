@@ -4,17 +4,41 @@
 <title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+@font-face {
+  font-family: "angsa";
+  src: url("fonts/angsa new.ttf");
+}
+
+@font-face {
+  font-family: "franklin";
+  src: url("fonts/franklin gothic book.ttf"),
+        url("fonts/franklin gothic heavy.ttf");
+}
 <style>
 
+
 *{
-    font-family: Arial;
+        font-family: angsa, franklin;
 }
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Arial, Helvetica;
     margin-right: 5%;
     margin-left: 5%;
 }
 
+hr{
+    margin: 0;
+    background-color:#f47920;
+    border-color:#f47920;
+    width: 99.5%;
+    border-radius: 5px;
+    height: 3px;
+    margin-left: 0.2%;
+    
+
+
+}
 
 /*********Cabecera***************/
 h1, h2{
@@ -22,11 +46,12 @@ h1, h2{
 }
 header{
     background-repeat:no-repeat; 
-    background:#286af0;
+    background:#005883;
     padding:5% 0%;
-    margin-bottom: 0.15em;
-    border-radius: 5px;**/
+    border-radius: 5px;
+    **/
 }
+
 /**************Menú*************/
 
 ul {
@@ -34,7 +59,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #808080;
     border-radius: 5px;
 }
 
@@ -59,11 +84,10 @@ li a:focus {
 /***********Principal**********/
 section#contenedor{
     border-radius: 5px;
-    background-color: #286af0;
+    background-color: #005883;
     padding: 0;
     margin: 0;
     overflow: hidden;
-    margin-top: 0.2em;
 }
 article#tema{
     width: 55%;
@@ -79,9 +103,8 @@ aside{
 }
 /*********Pié de página******/
 footer {
-    background: #286af0;
+    background: #005883;
     text-align: center;
     padding: 1%;
-    margin-top: 0.5em;
     border-radius: 5px;
 }
