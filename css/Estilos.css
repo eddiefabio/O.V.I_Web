@@ -22,6 +22,8 @@
 }
 
 body {
+
+    background: #b3b3b3;
     font-family:  Arial, Helvetica;
     margin-right: 5%;
     margin-left: 5%;
@@ -76,10 +78,10 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #333333;
 }
 li a:focus {
-    background-color: #111;
+    background-color: #333333;
 }
 /***********Principal**********/
 section#contenedor{
