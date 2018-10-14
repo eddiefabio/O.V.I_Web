@@ -107,16 +107,16 @@ section#contenedor{
 article#presentacion{
     line-height: 1em;
     margin: 1em;
-    width: 55%;
-    margin-left: 15%;
+    width: 60%;
+    margin-left: 10%;
 }
 
 article#tema{
-    width: 55%;
+    width: 60%;
     height: 375px;
     margin: 1em;
     overflow-y: scroll;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 aside#derecho{
     width: 29%;
