@@ -104,6 +104,13 @@ section#contenedor{
     margin: 0;
     overflow: hidden;
 }
+article#presentacion{
+    line-height: 1em;
+    margin: 1em;
+    width: 50%;
+    margin-left: 25%;
+}
+
 article#tema{
     width: 55%;
     height: 375px;
@@ -122,4 +129,7 @@ footer {
     text-align: center;
     padding: 1%;
     border-radius: 5px;
+}
+span {
+    font-weight: bold;
 }
