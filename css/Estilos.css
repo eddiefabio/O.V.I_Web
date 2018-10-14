@@ -122,13 +122,16 @@ aside#derecho{
     width: 29%;
     float:right;
     margin: 1em;
+
     
 
 }
 article#twits{
     height: 500px;
-    border-radius: 5px;
     overflow-y: scroll;
+    border-style: 1px;
+    border-color: #333333;
+    margin-left: 5px;
 }
 aside#izquierdo{
     width: 15%;
@@ -144,4 +147,51 @@ footer {
 }
 span {
     font-weight: bold;
+}
+
+/****Redes sociales****/
+div#social {
+    position: fixed;
+    left: 0; /* Establecemos la barra en la izquierda */
+    top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000;
+}
+ 
+div#social ul {
+        list-style: none;
+    }
+ 
+div#social ul li a {
+        display: inline-block;
+        color:#fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+    }
+ 
+div#social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+div#social ul li .icon-googleplus {background: #d95232;}
+div#social ul li .icon-pinterest {background: #ae181f;}
+div#social ul li .icon-mail {background: #666666;}
+ 
+    .social ul li a:hover {
+        background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+        padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }
+/**********Barra de desplazamiento************/
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px; 
+    border-radius: 10px;
+    background: #808080;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px;
+    background: #333333;
 }
