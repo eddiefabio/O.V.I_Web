@@ -107,21 +107,33 @@ section#contenedor{
 article#presentacion{
     line-height: 1em;
     margin: 1em;
-    width: 50%;
-    margin-left: 25%;
+    width: 55%;
+    margin-left: 15%;
 }
 
 article#tema{
     width: 55%;
     height: 375px;
-    float:left;
     margin: 1em;
     overflow-y: scroll;
+    margin-left: 15%;
 }
-aside{
-    width: 50%
+aside#derecho{
+    width: 29%;
     float:right;
-    margin: 0.5em;
+    margin: 1em;
+    
+
+}
+article#twits{
+    height: 500px;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+aside#izquierdo{
+    width: 15%;
+    float:left;
+    margin: 1em;
 }
 /*********Pié de página******/
 footer {
