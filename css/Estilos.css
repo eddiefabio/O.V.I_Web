@@ -133,16 +133,22 @@ p{
 /***********Principal**********/
 
 iframe{
-    margin-left: 25%;
     float: right;
+    vertical-align: center;
     margin-bottom: 1em;
+    margin-right: 30%;
+    margin-top: 20px;
 }
 
 audio{
     float: right;
+    vertical-align: center;
     margin-bottom: 1em;
+    margin-right: 40%;
+    margin-top: 20px;
 }
 section#contenedor{
+
     border-radius: 5px;
     background-color: #005883;
     padding: 0;
