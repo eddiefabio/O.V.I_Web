@@ -93,12 +93,12 @@ h1, h2, h3, h4{
     border-radius: 5px;
 }
 /*****Lista Desplegable*****/
-ul{
+#menuizquierdo ul{
         list-style-type: none;
         margin: 0;
         padding:0;
 }
-.list li a{
+#menuizquierdo li a{
     background-color: #808080;
     display: block;
     text-decoration: none;
@@ -110,18 +110,18 @@ ul{
     border-radius: 5px;
 }
 
-.list li ul{
+#menuizquierdo li ul{
     display:none;
     position: relative;
     right: -50px
 }
 
-.list li a:hover {
+#menuizquierdo li a:hover {
     background-color: #333333;
     border-radius: 5px;
 }
 
-.list li:hover > ul{
+#menuizquierdo li:hover > ul{
     display: block;
 }
 
@@ -131,22 +131,45 @@ p{
     margin-left: 3px;
 }
 /***********Principal**********/
-
-iframe{
+p{
+    color: white;
+    margin: 5px;
+}
+iframe#lectura{
     float: right;
-    vertical-align: center;
-    margin-bottom: 1em;
-    margin-right: 30%;
-    margin-top: 20px;
+    width: 850px;
+    margin-right: 80px;
+    height: 600px;
+    margin-bottom: 8px;
 }
 
+iframe#videos{
+    float: right;
+    width: 850px;
+    margin-right: 80px;
+    height: 600px;
+    margin-bottom: 8px;
+}
 audio{
     float: right;
-    vertical-align: center;
-    margin-bottom: 1em;
     margin-right: 40%;
-    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-top: 30px;
 }
+
+iframe#Juego{
+    float: right;
+    width: 850px;
+    margin-right: 80px;
+    height: 600px;
+    margin-bottom: 8px;
+}
+
+aside#presentacion{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 section#contenedor{
 
     border-radius: 5px;
@@ -155,27 +178,29 @@ section#contenedor{
     margin-top: 0.5%;
     overflow: hidden;
 }
+section#tema_principal{
+    margin: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
 
-article#tema{
-    width: 69%;
+article#temaindex{
+    width: 73.5%;
     height: 500px;
+    margin: 5px;
     overflow-y: scroll;
-    margin-left:10%;
     margin-top: 5px;
     border-radius: 5px;
     border-width: 1px;
     border-style: solid;
     border-color: #333333;
 }
-p{
-    color: white;
-    margin: 5px;
-}
-aside#derecho{
-    width: 19.5%;
-    height: 500px;
+aside#derechoindex{
     float:right;
+    width: 25%;
+    height: 500px;
     margin-top: 5px;
+    margin-right:  5px;
     border-radius: 5px;
     border-style: 1px;
     border-color: #333333;
@@ -185,12 +210,24 @@ aside#derecho{
     overflow-y: scroll;
 }
 
-aside#izquierdo{
-    width: 10%;
+aside#menuizquierdo{
+    width: 15%;
     float:left;
     padding: 0;
     margin: 1%;
     }
+
+img#foto{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    border-style: 1px;
+    border-color: #333333;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #333333;
+
+}
 /*********Pié de página******/
 footer {
     background: #005883;
